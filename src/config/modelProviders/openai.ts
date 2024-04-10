@@ -32,12 +32,14 @@ const OpenAI: ModelProviderCard = {
     },
     {
       displayName: 'GPT-3.5 Turbo 16K',
+      functionCall: true,
       hidden: true,
       id: 'gpt-3.5-turbo-16k',
       tokens: 16_385,
     },
     {
       displayName: 'GPT-3.5 Turbo (0613)',
+      functionCall: true,
       hidden: true,
       id: 'gpt-3.5-turbo-0613',
       legacy: true,
@@ -45,6 +47,7 @@ const OpenAI: ModelProviderCard = {
     },
     {
       displayName: 'GPT-3.5 Turbo 16K (0613)',
+      functionCall: true,
       hidden: true,
       id: 'gpt-3.5-turbo-16k-0613',
       legacy: true,
